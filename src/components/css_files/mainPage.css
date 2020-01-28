@@ -1,0 +1,53 @@
+.main-container{
+    padding-right: 400px;
+    display: grid;
+    padding-left: 400px;
+    max-width: 500px;
+    
+}
+.container{
+    justify-content: center;
+    margin-top: 60px;
+    border: 19px;
+    background-color:#fff;
+    border-radius:25px;
+    box-shadow: 0 4px 8px 0 rgba(212, 204, 204, 0.685), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-container h4{
+    color:gray;
+    padding-top: 20px;
+    font-family: 'BPG Nino Mtavruli', sans-serif;
+}
+.main-container h2{
+    color: blue;
+    justify-content: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-family: 'BPG Nino Mtavruli', sans-serif;
+}
+.progress-bars{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-container p{
+    display:inline-block;
+}
+#linearProgressBar{
+    border-left: 3px;
+    border-left-color: black;
+}
+#circular-progress-bar{
+    max-width:250px;
+    justify-self: center;
+}
+.continue{
+    color: rgb(52, 89, 201);
+    font-size:24px;
+    background-color: #fff;
+    border-color: #fff;
+    border:none;
+    margin-bottom: 20px;
+    cursor:pointer;
+    font-family: 'BPG Nino Mtavruli', sans-serif;
+}

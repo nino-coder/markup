@@ -1,0 +1,25 @@
+.info{
+    margin-left:10px;
+    margin-bottom:-3px;
+    color:lightgray;
+}
+.info-hover{
+  position: absolute;
+  display: inline-block;
+  box-shadow: 0 3px 5px 0 rgb(170, 167, 167);
+  top: 35px;
+  right: -10px;
+  padding: 15px;
+  width: 150px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.info-hover p{
+    color: rgb(52, 89, 201);
+    font-size: 12px;
+    font-weight: 550;
+}
+.level{
+  white-space: nowrap
+}
