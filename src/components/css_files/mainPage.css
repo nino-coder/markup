@@ -3,7 +3,7 @@
     display: grid;
     padding-left: 400px;
     max-width: 500px;
-    
+
 }
 .container{
     justify-content: center;
@@ -33,12 +33,12 @@
 .main-container p{
     display:inline-block;
 }
-#linearProgressBar{
-    border-left: 3px;
-    border-left-color: black;
+.linearProgressBar{
+    border-left: solid 1px lightgray;
+   
 }
-#circular-progress-bar{
-    max-width:250px;
+.circular-progress-bar{
+    /* max-width:250px; */
     justify-self: center;
 }
 .continue{
@@ -48,6 +48,7 @@
     border-color: #fff;
     border:none;
     margin-bottom: 20px;
+    margin-top: 25px;
     cursor:pointer;
     font-family: 'BPG Nino Mtavruli', sans-serif;
 }

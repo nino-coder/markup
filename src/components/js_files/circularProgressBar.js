@@ -22,7 +22,7 @@ export default class CircularProgressBar extends Component{
     }
     render(){
         return(
-            <div style={{ "marginLeft": "35px"}}>
+            <div style={{ "marginLeft": "35px","width":"78%"}}>
                 <div style={{'position':"relative"}} >
                 <div style={{'whiteSpace':'nowrap'}}>
                 <p className="level">ცოდნის დონე</p>
@@ -40,6 +40,7 @@ export default class CircularProgressBar extends Component{
                     text={`${this.state.currentPoint}`}
                     maxValue={10}
                     strokeWidth={15} 
+                    buil
                 />
             </div>
         );

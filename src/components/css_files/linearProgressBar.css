@@ -2,7 +2,6 @@
     border-radius:25px;
     height:20px;
     background-image: linear-gradient(to right, #7c3690, #863298, #902e9f, #9b27a6, #a61cac);
-    
 }
 .progress-bar{
     background-color:lightgray;
@@ -10,12 +9,14 @@
     height:20px;
     margin-bottom: 55px;
     margin-left: 10px;
+    width: 90%;
 }
 .percentage{
     font-size: 70px;
     color:#1A08DC;
     margin-top: 30px;
     font-family: 'BPG Nino Mtavruli', sans-serif;
+    white-space:nowrap;
 }
 p{
     color:gray;

@@ -10,10 +10,10 @@ import LinearProgressBar from './linearProgressBar'
                     <h4>მიმდინარე გაკვეთილი</h4>
                     <h2>სოციალური სტრუქტურები: გვარი, თემი, პირველყოფილი რელიგია და ხელოვნება. "სოციალურ-ეკონომიკური სისტემა"</h2>
                     <div className="progress-bars"> 
-                        <div id="circular-progress-bar">
+                        <div className="circular-progress-bar">
                             <CircularProgressBar style={{'margin-top':'30px'}}/>
                         </div>
-                        <div id="linearProgressBar"
+                        <div className="linearProgressBar"
                          style={{'max-width': '500px'}}
                          >
                             <LinearProgressBar/>
