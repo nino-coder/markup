@@ -20,24 +20,29 @@ export default class LinearProgressBar extends Component{
     }
     render(){
         return(
-            <>
-            <div >
-            <div style={{'whiteSpace':'nowrap'}}>
-            <p>პროგრესი</p>
-           <FaInfoCircle id="info"
-            onMouseOver={this.hoverOn}
-            onMouseOut={this.hoverOff}/></div>
-            {this.state.hover ? (
-                <span className='info-hover-progress'>
-                    <p>მიმდინარე გაკვეთილის რამდენი პროცენტი გაქვს შესრულებული</p>
-                </span>
-            ) : null}
+            <div>
+                <div>
+                    <div style={{'whiteSpace':'nowrap'}}>
+                        <p>პროგრესი</p>
+                        <FaInfoCircle className="info"
+                        onMouseOver={this.hoverOn}
+                        onMouseOut={this.hoverOff}/>
+                    </div>
+                    {this.state.hover ? (
+                        <span className='info-hover-progress'>
+                            <p>მიმდინარე გაკვეთილის რამდენი პროცენტი გაქვს შესრულებული</p>
+                        </span>
+                    ) : null}
+                </div>
+                <div>
+                    <strong>
+                        <p className="percentage">{this.state.percentage}  %</p>
+                    </strong>
+                    <div className="progress-bar">
+                        <div className="linear-progress-bar" style={{"width":`${this.state.percentage}%`}}></div>
+                    </div>
+                </div>
             </div>
-             <strong><p className="percentage">{this.state.percentage}  %</p></strong>
-            <div className="progress-bar">
-                <div className="linear-progress-bar" style={{"width":`${this.state.percentage}%`}}></div>
-          </div>
-          </>
         );
     }
 }

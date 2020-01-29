@@ -7,12 +7,13 @@
     background-color:lightgray;
     border-radius:25px;
     height:20px;
-    margin-bottom: 55px;
     margin-left: 10px;
     width: 90%;
+    margin-top: 20px;
 }
 .percentage{
-    font-size: 70px;
+    font-size: 90px;
+    height:0;
     color:#1A08DC;
     margin-top: 30px;
     font-family: 'BPG Nino Mtavruli', sans-serif;
@@ -22,17 +23,18 @@ p{
     color:gray;
     font-family: 'BPG Nino Mtavruli', sans-serif;
 }
-#info{
+.info{
     margin-left:10px;
     margin-bottom:-3px;
     color:lightgray;
 }
 .info-hover-progress{
-    position: absolute;
+     position: absolute;
     display: inline-block;
     box-shadow: 0 3px 5px 0 rgb(170, 167, 167);
-    top: 300px;
-    right: 450px;
+    top: 330px;
+    /* right: 450px; */
+    left:650px;
     padding: 15px;
     width: 150px;
     height: 50px;

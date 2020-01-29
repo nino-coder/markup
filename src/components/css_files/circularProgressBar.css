@@ -1,7 +1,7 @@
 .info{
-    margin-left:10px;
-    margin-bottom:-3px;
-    color:lightgray;
+  margin-left:10px;
+  margin-bottom:-3px;
+  color:lightgray;
 }
 .info-hover{
   position: absolute;
@@ -16,9 +16,9 @@
   border-radius: 20px;
 }
 .info-hover p{
-    color: rgb(52, 89, 201);
-    font-size: 12px;
-    font-weight: 550;
+  color: rgb(52, 89, 201);
+  font-size: 12px;
+  font-weight: 550;
 }
 .level{
   white-space: nowrap

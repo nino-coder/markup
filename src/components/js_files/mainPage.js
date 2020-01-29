@@ -13,9 +13,7 @@ import LinearProgressBar from './linearProgressBar'
                         <div className="circular-progress-bar">
                             <CircularProgressBar style={{'margin-top':'30px'}}/>
                         </div>
-                        <div className="linearProgressBar"
-                         style={{'max-width': '500px'}}
-                         >
+                        <div className="linearProgressBar">
                             <LinearProgressBar/>
                         </div>  
                     </div>

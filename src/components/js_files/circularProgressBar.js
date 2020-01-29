@@ -24,16 +24,17 @@ export default class CircularProgressBar extends Component{
         return(
             <div style={{ "marginLeft": "35px","width":"78%"}}>
                 <div style={{'position':"relative"}} >
-                <div style={{'whiteSpace':'nowrap'}}>
-                <p className="level">ცოდნის დონე</p>
-                <FaInfoCircle className="info"
-                onMouseOver={this.hoverOn}
-                onMouseOut={this.hoverOff}/></div>
-                {this.state.hover ? (
-                    <span className='info-hover'>
-                      <p>  რა ქულაზე იცი მიმდინარე გაკვეთილი</p>
-                    </span>
-                ) : null}
+                    <div style={{'whiteSpace':'nowrap'}}>
+                        <p className="level">ცოდნის დონე</p>
+                        <FaInfoCircle className="info"
+                        onMouseOver={this.hoverOn}
+                        onMouseOut={this.hoverOff}/>
+                    </div>
+                    {this.state.hover ? (
+                        <span className='info-hover'>
+                            <p>  რა ქულაზე იცი მიმდინარე გაკვეთილი</p>
+                        </span>
+                    ) : null}
                 </div>
                 <CircularProgressbar
                     value={this.state.currentPoint}
